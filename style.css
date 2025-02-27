@@ -4,6 +4,26 @@
     text-align: center;
     
 }
+/* Tablet screens (up to 768px wide) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        width: 90%;
+    }
+}
+
+/* Mobile screens (up to 480px wide) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
 body{
    background-color: lightseagreen;
 }
@@ -59,6 +79,9 @@ img{
 .mesg_container{
     margin-top: 5rem;
    /* background-color: rgb(47, 93, 134); */
+   display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #msg{
     background-color: black;
