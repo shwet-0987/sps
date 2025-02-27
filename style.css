@@ -9,19 +9,12 @@
     body {
         font-size: 14px;
     }
-    .container {
-        width: 90%;
-    }
 }
 
 /* Mobile screens (up to 480px wide) */
-@media (max-width: 480px) {
+@media (max-width: 496px) {
     body {
         font-size: 12px;
-    }
-    .container {
-        width: 100%;
-        padding: 10px;
     }
 }
 body{
@@ -38,6 +31,7 @@ h1{
 .choices {
     margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
